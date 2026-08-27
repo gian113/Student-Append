@@ -1,0 +1,19 @@
+[project]
+name = "student-append"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prince Balitayo", email = "princebalitayo@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "textual>=8.2.8",
+]
+
+[project.scripts]
+student-append = "student_append:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
